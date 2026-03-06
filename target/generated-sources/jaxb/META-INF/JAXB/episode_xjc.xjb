@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="3.0" xmlns="https://jakarta.ee/xml/ns/jaxb">
+  <!--
+
+Este arquivo foi gerado pela Eclipse Implementation of JAXB, v4.0.6 
+Consulte https://eclipse-ee4j.github.io/jaxb-ri 
+Todas as modificações neste arquivo serão perdidas após a recompilação do esquema de origem. 
+Gerado em: 2026.03.05 às 11:46:34 PM BRT
+  -->
+  <bindings scd="x-schema::tns" if-exists="true" auto-acknowledge="true" xmlns:tns="https://spring.io/guides/gs-movie-web-service">
+    <schemaBindings map="false">
+      <package name="io.spring.guides.gs_movie_web_service"/>
+    </schemaBindings>
+    <bindings scd="tns:getMovieRequest" if-exists="true" auto-acknowledge="true">
+      <class ref="io.spring.guides.gs_movie_web_service.GetMovieRequest"/>
+    </bindings>
+    <bindings scd="tns:getMovieResponse" if-exists="true" auto-acknowledge="true">
+      <class ref="io.spring.guides.gs_movie_web_service.GetMovieResponse"/>
+    </bindings>
+    <bindings scd="~tns:movie" if-exists="true" auto-acknowledge="true">
+      <class ref="io.spring.guides.gs_movie_web_service.Movie"/>
+    </bindings>
+  </bindings>
+</bindings>
